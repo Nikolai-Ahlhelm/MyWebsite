@@ -8,7 +8,7 @@ languages:
     en:
         languageName: English
         title: Nikolai Ahlhelm
-        description: Nikolai Ahlhelm Homepage
+        description: Nikolai Ahlhelm - Homepage
         weight: 1
 
 
@@ -38,16 +38,16 @@ params:
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2023
         customText:
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: Jan 06, 2023
+        lastUpdated: Jan 06, 2023 15:04 MST
 
     sidebar:
         emoji: 🔥
-        subtitle: SysAdmin & Programmer
+        subtitle: 
         avatar:
             enabled: true
             local: true
@@ -58,11 +58,11 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
@@ -189,7 +189,7 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Nikolai-Ahlhelm
           params:
               icon: brand-github
 
@@ -198,18 +198,6 @@ menu:
           url: https://twitter.com
           params:
               icon: brand-twitter
-
-        - identifier: discord
-          name: Discord
-          url: http://discordapp.com/users/492732340817362954
-          params:
-              icon: discord
-
-        - identifier: steam
-          name: Steam
-          url: https://steamcommunity.com/id/the_Ph0enix/
-          params:
-              icon: steam  
 
 related:
     includeNewer: true

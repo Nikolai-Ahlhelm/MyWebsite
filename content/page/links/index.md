@@ -2,11 +2,11 @@
 title: Links
 links:
   - title: GitHub Profile
-    description: 
+    description: github.com/Nikolai-Ahlhelm
     website: https://github.com/Nikolai-Ahlhelm
     image: img/github-mark-white.png
   - title: E-Mail
-    description: 
+    description: mail@Nikolai-Ahlhelm.de
     website: mailto:mail@Nikolai-Ahlhelm.de
     image: img/mail.png
 menu:
