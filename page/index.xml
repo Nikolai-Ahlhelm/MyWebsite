@@ -1,1 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Nikolai Ahlhelm</title><link>https://nikolai-ahlhelm.de/page/</link><description>Recent content in Pages on Nikolai Ahlhelm</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nikolai-ahlhelm.de/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://nikolai-ahlhelm.de/about/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/about/</guid><description>&lt;p>About me..&lt;/p></description></item><item><title>Archives</title><link>https://nikolai-ahlhelm.de/archives/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/archives/</guid><description/></item><item><title>Links</title><link>https://nikolai-ahlhelm.de/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/links/</guid><description/></item><item><title>Search</title><link>https://nikolai-ahlhelm.de/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Nikolai Ahlhelm</title><link>https://nikolai-ahlhelm.de/page/</link><description>Recent content in Pages on Nikolai Ahlhelm</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nikolai-ahlhelm.de/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://nikolai-ahlhelm.de/about/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/about/</guid><description>&lt;p>About me..&lt;/p></description></item><item><title>Archives</title><link>https://nikolai-ahlhelm.de/archives/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/archives/</guid><description/></item><item><title>Links</title><link>https://nikolai-ahlhelm.de/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/links/</guid><description/></item><item><title>Projects</title><link>https://nikolai-ahlhelm.de/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/projects/</guid><description>&lt;h2 id="powershell-projects">Powershell Projects&lt;/h2>
+&lt;p>All Powershell projects&lt;/p>
+&lt;hr>
+&lt;h3 id="nikolais-powershell-library">Nikolais-Powershell-Library&lt;/h3>
+&lt;p>This library aims to simplify functions that are often but hard to use.
+The library is split in modules, where each module contains one feature/function.&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;ul>
+&lt;li>Ballontip module - e.g. you can call this &lt;code>BallonError(title,text,timeout)&lt;/code> to see a error ballontip&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>GitHub (still in early development)&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="loggin-modulehttpsgithubcomnikolai-ahlhelmlogging-module-for-powershell">&lt;a class="link" href="https://github.com/Nikolai-Ahlhelm/Logging-Module-for-Powershell" target="_blank" rel="noopener"
+>Loggin Module&lt;/a>&lt;/h3>
+&lt;p>This powershell module is an all-in-one solution for logging.&lt;/p>
+&lt;p>It has different logtypes and logmodes:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Short&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>INFO&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>WARNING&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>CRITICAL&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>ERROR&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>DEBUG&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>DEFAULT&lt;/strong>&lt;/td>
+&lt;td>DEF&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>DEBUG&lt;/strong>&lt;/td>
+&lt;td>DBG&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>PRODUCTIVE&lt;/strong>&lt;/td>
+&lt;td>PROD&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ERROR&lt;/strong>&lt;/td>
+&lt;td>ERR&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>CRITICAL&lt;/strong>&lt;/td>
+&lt;td>CRIT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>X&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Currently version 3.0 is in work, with this new version there will be:&lt;/p>
+&lt;ul>
+&lt;li>Automatic log cleaning (removes log files older than x)&lt;/li>
+&lt;li>Switch between short and full timestamps&lt;/li>
+&lt;li>XML config file&lt;/li>
+&lt;li>Default log file name (if not specified)&lt;/li>
+&lt;li>(Colored log output, e.g. error messages are red)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/Nikolai-Ahlhelm/Logging-Module-for-Powershell" target="_blank" rel="noopener"
+>Logging Module on GitHub&lt;/a>&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="modding">Modding&lt;/h2>
+&lt;hr>
+&lt;h3 id="better-logistics-warnohttpsstoresteampoweredcomapp1611600warno">Better Logistics (&lt;a class="link" href="https://store.steampowered.com/app/1611600/WARNO/" target="_blank" rel="noopener"
+>WARNO&lt;/a>)&lt;/h3>
+&lt;p>This mod curently modifies the amount of supply of all logistic vehicles in game. All values are multiplied by 3.&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2803401789" target="_blank" rel="noopener"
+>Steam Workshop Page&lt;/a>&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="unlimited-supplies-warnohttpsstoresteampoweredcomapp1611600warno">Unlimited Supplies (&lt;a class="link" href="https://store.steampowered.com/app/1611600/WARNO/" target="_blank" rel="noopener"
+>WARNO&lt;/a>)&lt;/h3>
+&lt;p>Modifies the amount of all logistic vehicles to 999.999 supplies.&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2803631250" target="_blank" rel="noopener"
+>Steam Workshop Page&lt;/a>&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="no-more-phantoms-minecrafthttpswwwminecraftnet">No More Phantoms (&lt;a class="link" href="https://www.minecraft.net/" target="_blank" rel="noopener"
+>Minecraft&lt;/a>)&lt;/h3>
+&lt;p>This Minecraft mod avoids Phantoms from spawning.&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://www.curseforge.com/minecraft/mc-mods/no-more-phantoms" target="_blank" rel="noopener"
+>Curseforge Page&lt;/a>&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>More to follow..&lt;/p></description></item><item><title>Search</title><link>https://nikolai-ahlhelm.de/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/search/</guid><description/></item></channel></rss>
