@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Nikolai Ahlhelm</title>
+        <link>https://nikolai-ahlhelm.de/page/</link>
+        <description>Recent content in Pages on Nikolai Ahlhelm</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nikolai-ahlhelm.de/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://nikolai-ahlhelm.de/about/</link>
+        <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://nikolai-ahlhelm.de/about/</guid>
+        <description>&lt;p&gt;About me..&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://nikolai-ahlhelm.de/archives/</link>
+        <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://nikolai-ahlhelm.de/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://nikolai-ahlhelm.de/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nikolai-ahlhelm.de/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://nikolai-ahlhelm.de/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nikolai-ahlhelm.de/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -8,7 +8,7 @@ languages:
     en:
         languageName: English
         title: Nikolai Ahlhelm
-        description: Nikolai Ahlhelm Homepage
+        description: Nikolai Ahlhelm
         weight: 1
 
 
@@ -47,7 +47,7 @@ params:
 
     sidebar:
         emoji: 🔥
-        subtitle: SysAdmin & Programmer
+        subtitle: SysAdmin & Developer
         avatar:
             enabled: true
             local: true
