@@ -8,7 +8,12 @@ links:
   - title: E-Mail
     description: mail@Nikolai-Ahlhelm.de
     website: mailto:mail@Nikolai-Ahlhelm.de
-    image: img/mail.png
+    image: img/mail.svg
+  - title: Knowledgebase
+    description: Link to my knowledgebase
+    website: https://cloud.nikolai-ahlhelm.de:3443/
+    image: img/kb.svg
+
 menu:
     main: 
         weight: -50
