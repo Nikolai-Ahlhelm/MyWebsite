@@ -15,4 +15,5 @@ menu:
             icon: user
 ---
 
-About me..
+Hi my name is Nikolai,  
+I'm 21 and from Germany. Currently I am becoming a Systemadministrator and since 6 years I'm activley coding with languages like Python.
