@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nikolai Ahlhelm</title><link>https://nikolai-ahlhelm.de/</link><description>Recent content on Nikolai Ahlhelm</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nikolai-ahlhelm.de/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://nikolai-ahlhelm.de/about/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/about/</guid><description>&lt;p>About me..&lt;/p></description></item><item><title>Archives</title><link>https://nikolai-ahlhelm.de/archives/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/archives/</guid><description/></item><item><title>Links</title><link>https://nikolai-ahlhelm.de/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/links/</guid><description/></item><item><title>Projects</title><link>https://nikolai-ahlhelm.de/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/projects/</guid><description>&lt;h2 id="powershell-projects">Powershell Projects&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nikolai Ahlhelm</title><link>https://nikolai-ahlhelm.de/</link><description>Recent content on Nikolai Ahlhelm</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nikolai-ahlhelm.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Get all MSI Product Codes</title><link>https://nikolai-ahlhelm.de/p/get-all-msi-product-codes/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/p/get-all-msi-product-codes/</guid><description>&lt;p>The Product Codes are often required to make uninstallation of MSI applications easier. To get a ordered list of all product codes you just need to paste the following line in a powershell console.&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span>Write-Output(Get-WmiObject Win32_Product | Sort-Object Name | Format-Table IdentifyingNumber, Name -AutoSize)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Welcome to my blog!</title><link>https://nikolai-ahlhelm.de/p/welcome-to-my-blog/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/p/welcome-to-my-blog/</guid><description>&lt;img src="https://nikolai-ahlhelm.de/p/welcome-to-my-blog/claudio-testa-U3F2o6vz3bs-unsplash.jpg" alt="Featured image of post Welcome to my blog!" />&lt;p>Hi my name is Nikolai,&lt;br>
+I&amp;rsquo;m 21 and from Germany. Currently I am becoming a Systemadministrator and since 6 years I&amp;rsquo;m activley coding with languages like Python.&lt;/p>
+&lt;h2 id="my-sysadmin-maintopics">My Sysadmin Maintopics:&lt;/h2>
+&lt;ul>
+&lt;li>Automation with Powershell&lt;/li>
+&lt;li>SCCM / MECM&lt;/li>
+&lt;/ul>
+&lt;h2 id="my-languages">My Languages:&lt;/h2>
+&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>Powershell&lt;/li>
+&lt;li>Also a bit of: Java, JS, C, C++, C#&lt;/li>
+&lt;/ul>
+&lt;p>Image by &lt;a class="link" href="https://unsplash.com/de/Fotos/U3F2o6vz3bs?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditShareLink" target="_blank" rel="noopener"
+>Claudio Testa&lt;/a>&lt;/p></description></item><item><title>About</title><link>https://nikolai-ahlhelm.de/about/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/about/</guid><description>&lt;p>Hi my name is Nikolai,&lt;br>
+I&amp;rsquo;m 21 and from Germany. Currently I am becoming a Systemadministrator and since 6 years I&amp;rsquo;m activley coding with languages like Python.&lt;/p></description></item><item><title>Archives</title><link>https://nikolai-ahlhelm.de/archives/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/archives/</guid><description/></item><item><title>Links</title><link>https://nikolai-ahlhelm.de/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/links/</guid><description/></item><item><title>Projects</title><link>https://nikolai-ahlhelm.de/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikolai-ahlhelm.de/projects/</guid><description>&lt;h2 id="powershell-projects">Powershell Projects&lt;/h2>
 &lt;p>All Powershell projects&lt;/p>
 &lt;hr>
 &lt;h3 id="nikolais-powershell-library">Nikolais-Powershell-Library&lt;/h3>
